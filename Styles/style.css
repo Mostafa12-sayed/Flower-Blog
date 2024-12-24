@@ -46,11 +46,12 @@ ul li {
 .nav ul li {
   text-align: center;
 }
-header .nav-link .active {
-  color: white !important;
-}
+
 header .nav-link {
   color: #777 !important;
+}
+header .nav-link .active {
+  color: white !important;
 }
 header .nav-link:hover {
   color: white !important;
@@ -159,21 +160,7 @@ hr {
   text-decoration: none;
 }
 
-/* .post-comment {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.post-comment input,
-textarea {
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.1);
-} */
+
 .post-comment button {
   padding: 10px;
   border-radius: 10px;
